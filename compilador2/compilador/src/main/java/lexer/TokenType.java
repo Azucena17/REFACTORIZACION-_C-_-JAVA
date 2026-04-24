@@ -1,0 +1,13 @@
+package lexer;
+
+public enum TokenType {
+    SELECT, FROM, WHERE,
+    IDENTIFIER,
+    NUMBER,
+    STRING,
+    GREATER, LESS, GREATER_EQUAL, LESS_EQUAL,
+    EQUAL, NOT_EQUAL,
+    ASTERISK, COMMA, SEMICOLON,
+    END_OF_FILE,
+    INVALID
+}
